@@ -1,0 +1,36 @@
+{
+  "name": "katar",
+  "version": "0.0.1",
+  "description": "Simple queue based system for node.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha --harmony --bail --timeout 5000",
+    "test-debug": "mocha --harmony --bail --timeout 50000 --debug-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jksdua/katar"
+  },
+  "keywords": [
+    "queue",
+    "kue",
+    "barbeque"
+  ],
+  "author": "Jaap Karan Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jksdua/katar/issues"
+  },
+  "homepage": "https://github.com/jksdua/katar",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "jsonschema": "~0.4.0",
+    "debug": "~0.7.4",
+    "katar-memorydb": "~0.0.1"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.18.0",
+    "co": "~3.0.5"
+  }
+}
