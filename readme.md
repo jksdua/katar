@@ -53,7 +53,7 @@ dataQueue.insert({
 	// supported values - HIGH, MEDIUM, LOW
 dataQueue.insert({
 	data: 'http://api.hawktrack.com/carriers',
-	priority: katar.constans.priority.HIGH
+	priority: katar.constants.priority.HIGH
 });
 
 // insert a youtube request with an object data type
