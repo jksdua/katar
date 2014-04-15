@@ -1,7 +1,7 @@
 {
   "name": "katar",
   "version": "0.0.1",
-  "description": "Simple queue based system for node.js",
+  "description": "Modular queue system for node.js",
   "main": "./src/index.js",
   "scripts": {
     "test": "mocha --harmony --bail --timeout 5000",

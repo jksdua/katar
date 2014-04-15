@@ -14,8 +14,22 @@ Features
 	- Process jobs using distributed workers over http, tcp or ipc 
 
 
-Example
--------
+Usage
+-----
+
+### Installation
+
+```
+npm install katar --save
+```
+
+katar and its subcomponents harness the full power of ES6 generators and as such require node *0.11.9* or higher, and must run node with the --harmony flag. If you don't like typing this, add an alias to your shell profile:
+
+```
+alias node='node --harmony'
+```
+
+### Example
 
 Here's an example of a complex queue server that lets you create multiple queues and use HTTP polling workers
 
